@@ -1,0 +1,10 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    var stu = ViewData["students"] as Student;
+}
+@ViewData["Greeting"] World !!<br />
+Name: @stu.name<br />
+Address: @stu.address<br />
+Faculty: @stu.faculty<br />
